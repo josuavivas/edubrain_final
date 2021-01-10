@@ -20,7 +20,7 @@ public class MenuPrincipal : MonoBehaviour
 
     public void IniciarJuego1()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Scene4");
     }
     
     public void IniciarJuego2()

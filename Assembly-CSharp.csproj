@@ -47,6 +47,8 @@
      <Compile Include="Assets\scripts\numero\control_menu1.cs" />
      <Compile Include="Assets\scripts\patron\AddButton3.cs" />
      <Compile Include="Assets\scripts\patron\GameControl3.cs" />
+     <Compile Include="Assets\scripts\patron1\AddButton4.cs" />
+     <Compile Include="Assets\scripts\patron1\GameControl4.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
