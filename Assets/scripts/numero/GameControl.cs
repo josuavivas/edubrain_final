@@ -184,13 +184,14 @@ public class GameControl : MonoBehaviour {
         {
             Debug.Log("Game Finished");
             Debug.Log("Tardaste " + countg + " Intentos");
-            btn_pausa1.gameObject.SetActive(false);
+           
             
 
             nivel++;
-            if(nivel==3)
+            if(nivel==4)
             {
                 menu_fin.SetActive(true);
+                btn_pausa1.gameObject.SetActive(false);
             }
             
             PasarNivelJuego(nivel);

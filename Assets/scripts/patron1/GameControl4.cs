@@ -194,7 +194,7 @@ public class GameControl4 : MonoBehaviour {
 
             nivel++;
 
-            if(nivel==5)
+            if(nivel==6)
             {
                 menu_fin.SetActive(true);
                 PlayerPrefs.SetInt("max",countg);

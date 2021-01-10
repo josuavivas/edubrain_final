@@ -195,7 +195,7 @@ public class GameControl3 : MonoBehaviour {
             
 
             nivel++;
-            if(nivel==3)
+            if(nivel==4)
             {
                 menu_fin.SetActive(true);
             }
