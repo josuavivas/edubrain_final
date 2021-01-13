@@ -38,6 +38,16 @@ public class MenuPrincipal : MonoBehaviour
         SceneManager.LoadScene("Scene3");
     }
 
+    public void IniciarJuego5()
+    {
+        SceneManager.LoadScene("Scene5");
+    }
+
+    public void IniciarJuego6()
+    {
+        SceneManager.LoadScene("Scene6");
+    }
+
     public void VolverInicio()
     {
         

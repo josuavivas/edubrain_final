@@ -47,4 +47,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/patron1/Scene4_niv5.unity
     guid: 20e292e68eb3ffc4da4d53dcb8d99927
+  - enabled: 1
+    path: Assets/Scenes/triangulos/Scene5.unity
+    guid: 99bc4949c7bab884f9be7f1a5f5af3d3
+  - enabled: 1
+    path: Assets/Scenes/triangulos/Scene5_niv2.unity
+    guid: e7bc112b2d02f4346b94556a7c77395c
+  - enabled: 1
+    path: Assets/Scenes/frutas/Scene6.unity
+    guid: 6b79b5762421978489152124f26a1a63
+  - enabled: 1
+    path: Assets/Scenes/frutas/Scene6_niv2.unity
+    guid: 7146563a70ef15341bef9713a74205c7
   m_configObjects: {}
