@@ -190,7 +190,9 @@ public class GameControl6 : MonoBehaviour {
 
             nivel++;
 
-            if(nivel==3)
+            PasarNivelJuego(nivel);
+
+            if(nivel==7)
             {
                 menu_fin.SetActive(true);
                 PlayerPrefs.SetInt("max",countg);
@@ -235,12 +237,54 @@ public class GameControl6 : MonoBehaviour {
         {
             spriter.sprite = Resources.Load<Sprite>("Sprites/frutas/fruta2");
 
-            btns[0].GetComponentInChildren<Text>().text = "9";
-            btns[1].GetComponentInChildren<Text>().text = "5";
+            btns[0].GetComponentInChildren<Text>().text = "8";
+            btns[1].GetComponentInChildren<Text>().text = "9";
             btns[2].GetComponentInChildren<Text>().text = "7";
             btns[3].GetComponentInChildren<Text>().text = "12";
             
         }
+        
+        else if(niv==3)
+        {
+            spriter.sprite = Resources.Load<Sprite>("Sprites/frutas/fruta2");
+
+            btns[0].GetComponentInChildren<Text>().text = "2";
+            btns[1].GetComponentInChildren<Text>().text = "3";
+            btns[2].GetComponentInChildren<Text>().text = "5";
+            btns[3].GetComponentInChildren<Text>().text = "1";
+            
+        }
+        else if(niv==4)
+        {
+            spriter.sprite = Resources.Load<Sprite>("Sprites/frutas/fruta2");
+
+            btns[0].GetComponentInChildren<Text>().text = "2";
+            btns[1].GetComponentInChildren<Text>().text = "1";
+            btns[2].GetComponentInChildren<Text>().text = "3";
+            btns[3].GetComponentInChildren<Text>().text = "6";
+            
+        }        
+        else if(niv==5)
+        {
+            spriter.sprite = Resources.Load<Sprite>("Sprites/frutas/fruta2");
+
+            btns[0].GetComponentInChildren<Text>().text = "1";
+            btns[1].GetComponentInChildren<Text>().text = "2";
+            btns[2].GetComponentInChildren<Text>().text = "5";
+            btns[3].GetComponentInChildren<Text>().text = "3";
+            
+        }
+        else if(niv==6)
+        {
+            spriter.sprite = Resources.Load<Sprite>("Sprites/frutas/fruta2");
+
+            btns[0].GetComponentInChildren<Text>().text = "4";
+            btns[1].GetComponentInChildren<Text>().text = "5";
+            btns[2].GetComponentInChildren<Text>().text = "6";
+            btns[3].GetComponentInChildren<Text>().text = "3";
+            
+        }
+
         
     }
 
@@ -251,7 +295,23 @@ public class GameControl6 : MonoBehaviour {
         {
             SceneManager.LoadScene("Scene6_niv2");
         }
-        else
+        if(nivel==3)
+        {
+            SceneManager.LoadScene("Scene6_niv3");
+        }
+        if(nivel==4)
+        {
+            SceneManager.LoadScene("Scene6_niv4");
+        }
+        if(nivel==5)
+        {
+            SceneManager.LoadScene("Scene6_niv5");
+        }
+        if(nivel==6)
+        {
+            SceneManager.LoadScene("Scene6_niv6");
+        }
+        else if(nivel==7)
         {
             menu_fin.SetActive(true);
         }

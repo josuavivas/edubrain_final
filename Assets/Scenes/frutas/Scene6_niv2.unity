@@ -853,7 +853,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xA1Te quedaste sin tiempo!"
+  m_text: "\xA1Terminaste el juego!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dfb9be1fea38d0544a4d6518e668a438, type: 2}
   m_sharedMaterial: {fileID: -3809665894906849736, guid: dfb9be1fea38d0544a4d6518e668a438,
@@ -881,7 +881,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 42.15
+  m_fontSize: 44.65
   m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1116,7 +1116,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xBFCu\xE1l es el resultado de sumar cereza mas lim\xF3n?"
+  m_text: "\xBFCu\xE1nto vale la fresa?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3757b27f3c7f4a2469ea89c647e263e2, type: 2}
   m_sharedMaterial: {fileID: 4608022007060087720, guid: 3757b27f3c7f4a2469ea89c647e263e2,

@@ -59,4 +59,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/frutas/Scene6_niv2.unity
     guid: 7146563a70ef15341bef9713a74205c7
+  - enabled: 1
+    path: Assets/Scenes/frutas/Scene6_niv3.unity
+    guid: 3ed8c213bafd590408ed5dc261058f2d
+  - enabled: 1
+    path: Assets/Scenes/frutas/Scene6_niv4.unity
+    guid: f07ef26470a19fb4fbc88bccb799bac8
+  - enabled: 1
+    path: Assets/Scenes/frutas/Scene6_niv5.unity
+    guid: 7c07048435580cf42890e3497fb4592b
+  - enabled: 1
+    path: Assets/Scenes/frutas/Scene6_niv6.unity
+    guid: f18edcd80722fcf4d8c0bd01f3802609
   m_configObjects: {}

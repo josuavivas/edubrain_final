@@ -2372,7 +2372,7 @@ MonoBehaviour:
   imx: 1
   ind: 7
   result: 0
-  nivel: 1
+  nivel: 2
   menu_fin: {fileID: 1909711633}
   menu_pausa: {fileID: 1222945963}
   btn_pausa1: {fileID: 1136971090}
